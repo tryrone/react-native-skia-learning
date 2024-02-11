@@ -1,20 +1,13 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
-import FillsAndStrokes from "./app/FillsAndStrokes";
+// import { Confetti } from "./app/Confetti";
+// import Doughnut from "./app/Doughnut";
+// import BarChart from "./app/BarChart";
+// import { LineChart } from "./app/LineChart";
+// import MeatBallAnimation from "./app/MeatBallAnimation";
+
+import { MorphingCircle } from "./app/MorphingCircles";
+
+// import { ExpoPulse } from "./app/ExpoPulse";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <FillsAndStrokes />
-    </View>
-  );
+  return <MorphingCircle />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
